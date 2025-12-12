@@ -2,12 +2,7 @@
 name: TDD Green
 description: Implement minimum code to make tests pass. You are in the GREEN phase of TDD.
 tools:
-  - search
-  - usages
-  - editFiles
-  - runCommand
-  - problems
-  - terminalLastCommand
+  ['execute', 'read/problems', 'read/readFile', 'edit', 'search', 'web', 'azure/search', 'fetch/*', 'agent', 'todo']
 handoffs:
   - label: "🔵 Improve Code"
     agent: tdd-refactor

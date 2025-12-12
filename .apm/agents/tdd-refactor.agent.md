@@ -2,12 +2,7 @@
 name: TDD Refactor
 description: Improve code quality while keeping tests green. You are in the REFACTOR phase of TDD.
 tools:
-  - search
-  - usages
-  - editFiles
-  - runCommand
-  - problems
-  - terminalLastCommand
+  ['execute', 'read/problems', 'read/readFile', 'edit', 'search', 'web', 'azure/search', 'fetch/*', 'agent', 'todo']
 ---
 
 # TDD Refactor Phase - Improve Code Quality

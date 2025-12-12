@@ -2,11 +2,7 @@
 name: TDD Red
 description: Write failing tests first. You are in the RED phase of TDD.
 tools:
-  - search
-  - usages
-  - fetch
-  - githubRepo
-  - problems
+  ['execute', 'read/problems', 'read/readFile', 'edit', 'search', 'web', 'azure/search', 'fetch/*', 'agent', 'todo']
 handoffs:
   - label: "🟢 Make Tests Pass"
     agent: tdd-green
