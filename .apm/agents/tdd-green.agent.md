@@ -5,7 +5,7 @@ tools:
   ['execute', 'read/problems', 'read/readFile', 'edit', 'search', 'web', 'azure/search', 'fetch/*', 'agent', 'todo']
 handoffs:
   - label: "🔵 Improve Code"
-    agent: tdd-refactor
+    agent: TDD Refactor
     prompt: "The tests are now passing. Refactor the implementation to improve code quality while keeping all tests green."
     send: false
 ---
