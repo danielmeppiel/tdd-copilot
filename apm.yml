@@ -1,0 +1,8 @@
+name: tdd-copilot
+version: 1.0.0
+description: TDD workflow encoded as VSCode agent handoffs - Red → Green → Refactor
+author: danielmeppiel
+dependencies:
+  apm: []
+  mcp: []
+scripts: {}
