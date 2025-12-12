@@ -4,7 +4,7 @@ description: Write failing tests first. You are in the RED phase of TDD.
 tools:
   ['execute', 'read/problems', 'read/readFile', 'edit', 'search', 'web', 'azure/search', 'fetch/*', 'agent', 'todo']
 handoffs:
-  - label: "🟢 Make Tests Pass"
+  - label: "Make Tests Pass"
     agent: TDD Green
     prompt: "Now implement the minimum code needed to make the tests above pass. Do not add any functionality beyond what the tests require."
     send: false
